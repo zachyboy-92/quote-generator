@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title {
+  text-align: center;
+  margin: 10px auto;
+}
+
+#intro {
+  text-align: center;
+  margin: 20px 0px 50px 0;
+  font-size: larger;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+}
+
+.player__score,
+.computer__score {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.players {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+#player-one {
+  border: 2px solid black;
+  width: 40vw;
+  height: 25vh;
+  position: relative;
+}
+
+#player-one h4 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15%;
+  padding: 7px 0;
+}
+
+#player1-value {
+  width: 100%;
+  height: 85%;
+  background-color: rgb(49, 47, 47);
+}
+
+#player1-value:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+#player1-image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 3%;
+  top: 15%;
+}
+
+#computer {
+  border: 2px solid black;
+  width: 40vw;
+  height: 25vh;
+  position: relative;
+}
+
+#computer h4 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15%;
+  padding: 7px 0;
+}
+
+#computer-value {
+  width: 100%;
+  height: 85%;
+  background-color: rgb(49, 47, 47);
+  position: relative;
+}
+
+#computer-value:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+#computer-image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 13%;
+  right: 1%;
+}
+
+.select h4 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: larger;
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 0 15px;
+  border-radius: 200px;
+  width: 75px;
+  height: 75px;
+  background-color: rgb(49, 47, 47);
+}
+
+.buttons img {
+  width: 70px;
+  height: 70px;
+}
+
+.again {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(49, 47, 47);
+  color: burlywood;
+  font-weight: 700;
+}
+
+#reset {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 425px) {
+  #player1-image {
+    left: 13%;
+  }
+
+  #computer-image {
+    right: 12%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #player1-image {
+    left: 25%;
+  }
+
+  #computer-image {
+    right: 23%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #player1-image {
+    left: 30%;
+  }
+
+  #computer-image {
+    right: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #player1-image {
+    left: 37%;
+  }
+
+  #computer-image {
+    right: 37%;
+  }
+}
