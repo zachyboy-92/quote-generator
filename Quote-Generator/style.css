@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#headline {
+  font-size: 2.5em;
+  margin: 10% auto;
+  text-shadow: 5px 5px 3px lightgray;
+}
+
+.quote {
+  margin: 30%;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: dimgray;
+  color: cyan;
+  border-radius: 50px;
+}
+
+button:focus {
+  outline: 0;
+}

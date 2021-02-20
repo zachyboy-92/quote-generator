@@ -1,0 +1,11 @@
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "quote generator project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zakaria",
+  "license": "ISC"
+}
