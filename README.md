@@ -1,3 +1,3 @@
 # quote-generator
 
-Generate a random quote, advice or jokes with random colors
+Generate a random quote, advice or joke with random colors
