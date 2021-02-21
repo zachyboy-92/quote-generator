@@ -7,12 +7,26 @@
 
 #headline {
   font-size: 2.5em;
-  margin: 10% auto;
+  margin: 10% auto 1% auto;
   text-shadow: 5px 5px 3px lightgray;
 }
 
+.quote__container {
+  border: 1px solid black;
+  width: 30vw;
+  height: 40vh;
+  margin: auto;
+}
+
 .quote {
-  margin: 30%;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 15%;
+}
+
+.quotes__child {
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 button {
@@ -21,6 +35,7 @@ button {
   background-color: dimgray;
   color: cyan;
   border-radius: 50px;
+  margin-top: 1%;
 }
 
 button:focus {
